@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text><button data-event-opts="{{[['tap',[['btn',['$event']]]]]}}" bindtap="__e">识别身份证</button></view></view>

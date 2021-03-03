@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><text class="title">{{title}}</text></view><view data-event-opts="{{[['tap',[['getACSS_TOKEN',['$event']]]]]}}" style="font-size:36px;" onTap="__e">gettoken</view><view data-event-opts="{{[['tap',[['test',['$event']]]]]}}" onTap="__e">test</view><image src="{{base64str}}"></image></view>
