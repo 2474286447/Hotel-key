@@ -68,7 +68,7 @@
 	background-color: #F1F1F1;
 }
 .houseNum{
-	margin-top: 10rpx;
+	margin-top: 20rpx;
 	font-size: 28rpx;
 }
 .houseNum>text{
