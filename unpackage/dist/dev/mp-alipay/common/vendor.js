@@ -9655,6 +9655,17 @@ module.exports = g;
 
 
 
+/***/ }),
+
+/***/ 56:
+/*!*******************************************!*\
+  !*** D:/明腾/新建文件夹/Hotel-key/static/fk.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/static/fk.png";
+
 /***/ })
 
 }]);

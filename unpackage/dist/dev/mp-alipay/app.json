@@ -2,13 +2,34 @@
   "pages": [
     "pages/index/index",
     "pages/index/identity",
-    "pages/index/login"
+    "pages/index/login",
+    "pages/index/roomCard",
+    "pages/index/my"
   ],
   "subPackages": [],
   "window": {
     "defaultTitle": "uni-app",
     "titleBarColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#999999",
+    "selectedColor": "#e34969",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/home2.png",
+        "activeIcon": "static/home1.png"
+      },
+      {
+        "pagePath": "pages/index/my",
+        "name": "我的",
+        "icon": "static/my2.png",
+        "activeIcon": "static/my1.png"
+      }
+    ]
   },
   "usingComponents": {}
 }

@@ -1,0 +1,28 @@
+
+.roomCard>view:first-child {
+	font-size: 36rpx;
+	margin: 20rpx 0;
+	text-align: center;
+}
+.roomCard>view:nth-child(2) {
+	font-size: 36rpx;
+	margin: 30rpx 0;
+	text-align: center;
+}
+.roomCard>view:nth-child(2)>view {
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 100px;
+	background-color: #e2e2e2;
+}
+.roomCard>view:nth-child(3) {
+	text-align: center;
+}
+.roomCard>view:nth-child(3)>view {
+	display: inline-block;
+	padding: 4px 16px;
+	border: 1px solid rgb(37, 167, 133);
+	border-radius: 100px;
+	color: rgb(37, 167, 133);
+}
+
