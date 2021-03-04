@@ -1,0 +1,8 @@
+{
+  "modes": [
+    {
+      "title": "登录",
+      "page": "pages/index/login"
+    }
+  ]
+}
