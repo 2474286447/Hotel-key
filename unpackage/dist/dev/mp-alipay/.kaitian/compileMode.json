@@ -1,0 +1,12 @@
+{
+  "modes": [
+    {
+      "title": "我的",
+      "page": "pages/index/my"
+    },
+    {
+      "title": "hotelDetail",
+      "page": "pages/index/hotelDetail"
+    }
+  ]
+}

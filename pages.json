@@ -29,6 +29,24 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		},
+		{
+			"path": "pages/index/userAgreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/index/myAuthInfo",
+			"style": {
+				"navigationBarTitleText": "我的认证"
+			}
+		},
+		{
+			"path": "pages/index/hotelDetail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
 		}
 	],
 	"globalStyle": {

@@ -1,0 +1,1 @@
+<view class="grace-rich-text"><rich-text type="text" nodes="{{demoHtml}}"></rich-text></view>

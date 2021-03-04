@@ -1,1 +1,106 @@
-/* required by usingComponents */
+
+page {
+	background-color: #f1f2f6;
+}
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.align-center {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.justify-center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.justify-between {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.justify-around {
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.margin-bottom {
+	margin-bottom: 30rpx;
+}
+.hesder {
+	height: 350rpx;
+	background-color: #01b377;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding-left: 25rpx;
+	/* padding-top: 50rpx; */
+}
+.hesder>image {
+	width: 135rpx;
+	height: 135rpx;
+	border-radius: 100%;
+	border: 5rpx solid white;
+	margin-right: 20rpx;
+}
+.userInfo_name {
+	color: #ffffff;
+	font-size: 36rpx;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+}
+.userInfo_isAuth {
+	padding: 5rpx 10rpx;
+	background-color: white;
+	color: #007AFF;
+	font-size: 26rpx;
+	display: inline-block;
+	border-radius: 10rpx;
+}
+.functionBody {
+	padding: 0 30rpx;
+}
+.cell {
+	padding: 30rpx;
+	background-color: white;
+	box-shadow: 0rpx 2rpx 10rpx 0rpx rgba(6, 0, 1, 0.2);
+	border-radius: 10rpx;
+	font-size: 32rpx;
+	margin-bottom: 30rpx;
+	-webkit-transform: translateY(-40rpx);
+	        transform: translateY(-40rpx);
+	font-weight: bold;
+}
+.cell_icon {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 10rpx;
+}
+.cell>image {
+	width: 30rpx;
+	height: 40rpx;
+}
+.helpCell {
+	padding: 30rpx;
+	background-color: white;
+	box-shadow: 0rpx 2rpx 10rpx 0rpx rgba(6, 0, 1, 0.2);
+	border-radius: 10rpx;
+	font-size: 32rpx;
+	margin-bottom: 30rpx;
+	-webkit-transform: translateY(-40rpx);
+	        transform: translateY(-40rpx);
+	font-weight: bold;
+}
+.helpCell_cell {
+	font-weight: normal;
+	color: #424242;
+	padding-left: 50rpx;
+	margin-bottom: 30rpx;
+}
+.helpCell_cell>image {
+	width: 30rpx;
+	height: 40rpx;
+}
+

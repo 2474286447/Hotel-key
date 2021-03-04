@@ -4,7 +4,10 @@
     "pages/index/identity",
     "pages/index/login",
     "pages/index/roomCard",
-    "pages/index/my"
+    "pages/index/my",
+    "pages/index/userAgreement",
+    "pages/index/myAuthInfo",
+    "pages/index/hotelDetail"
   ],
   "subPackages": [],
   "window": {
