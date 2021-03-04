@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/index/identity"
+    "pages/index/identity",
+    "pages/index/login"
   ],
   "subPackages": [],
   "window": {

@@ -11,6 +11,12 @@
 			"style": {
 				"navigationBarTitleText": "身份证认证"
 			}
+		},
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
 		}
 	],
 	"globalStyle": {
