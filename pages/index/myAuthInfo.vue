@@ -18,8 +18,8 @@
 			<view class="authInfo">
 				<view class="flex align-center authInfo_name">
 					<text>{{authInfo.name}}</text>
-					<image a:if="authInfo.gender=='男'" src="/static/male.png" mode="aspectFit"></image>
-					<image a:else src="/static/female.png" mode="aspectFit"></image>
+					<image v-if="authInfo.gender=='男'" src="/static/male.png" mode="aspectFit"></image>
+					<image v-else src="/static/female.png" mode="aspectFit"></image>
 				</view>
 				<view class="flex align-center authInfo_contnet">
 					出生日期：<text>{{authInfo.birthday}}</text>
